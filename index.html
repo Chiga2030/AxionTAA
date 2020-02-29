@@ -2,31 +2,36 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1.0, width=device-width">
 	<title>Axion footwear</title>
+	<link rel="stylesheet" href="./fonts/montserrat/fonts.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 	<header class="header">
-		<div class="logo"><img src="./img/logo.svg" alt="logo Axion"></div>
-		<nav class="nav">
-			<a href="#" class="nav__item">shop</a>
-			<a href="#" class="nav__item">news</a>
-			<a href="#" class="nav__item">team</a>
-			<a href="#" class="nav__item">legacy</a>
-			<a href="#" class="nav__item">help</a>
+		<div class="header__logo logo">
+			<!-- <img src="./img/logo.png" alt="logo Axion"> -->
+		</div>
+		<nav class="header__nav nav">
+			<a href="#" class="nav__item link">shop</a>
+			<a href="#" class="nav__item link">news</a>
+			<a href="#" class="nav__item link">team</a>
+			<a href="#" class="nav__item link">legacy</a>
+			<a href="#" class="nav__item link">help</a>
 		</nav>
-		<span class="search"></span>
-		<div class="profile">
-			<a href="#" class="profile__item">sign in</a>
-			<a href="#" class="profile__item">cart</a>
-			<a href="#" class="profile__item"><img src="./img/language/en.svg" alt="Choise language"></a>
+		<label class="header__search search"><input class="search-input"></input></label>
+		<div class="header__profile profile">
+			<a href="#" class="profile__item link">sign&nbsp;&nbsp;in</a>
+			<a href="#" class="profile__item link">cart <span class="profile__item profile__item_in-cart">1</span></a>
+			<a href="#" class="profile__item profile__item_language link"><!-- <img src="./img/language/en.svg" alt="Choise language"> --></a>
 		</div>
 	</header>
 
 	<section class="banner">
 		<!-- <img src="./img/banner-img.png" alt="Product banner"> -->
 		<h2 class="banner__title">Legendary footwear reborn.</h2>
-		<a href="#" class="link">shop now <span class="link__decorate-arrow"></span></a>
+		<a href="#" class="banner__link link link__decorate-arrow">shop now<!--  <span class="link__decorate-arrow"></span> --></a>
 	</section>
 
 	<section class="preview">
