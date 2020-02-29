@@ -191,6 +191,10 @@ body {
 		width: 61px;
 	}
 
+	.logo {
+		background: url(img/logo-1024.png) center no-repeat;
+	}
+
 	.header__nav {
 		margin-right: 110px;
 	}
