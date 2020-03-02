@@ -160,8 +160,8 @@ body {
 	height: 281px;
 	margin: auto;
 	position: relative;
-	max-width: 1030px;
-	min-width: 1024px;
+/*	max-width: 1030px;
+	min-width: 1024px;*/
 }
 
 .banner__title {
@@ -187,11 +187,11 @@ body {
 @media (max-width: 1024px) {
 
 	body {
-		width: 1024px;
+		/*width: 1024px;*/
 	}
 
 	.header {
-		max-width: 930px;
+		/*max-width: 930px;*/
 		margin-bottom: 18px;
 	}
 
@@ -244,8 +244,8 @@ body {
 	.banner {
 		background-size: contain;
 		max-height: 255px;
-		max-width: 930px;
-		min-width: 768px;
+		/*max-width: 930px;
+		min-width: 768px;*/
 	}
 
 	.banner__title {
@@ -263,11 +263,11 @@ body {
 @media (max-width: 768px) {
 
 	body {
-		max-width: 768px;
+		/*max-width: 768px;*/
 	}
 
 	.header {
-		max-width: 682px;
+		/*max-width: 682px;*/
 		margin-bottom: 4px;
 		padding-top: 8px;
 	}
@@ -328,11 +328,11 @@ body {
 @media (max-width: 375px) {
 
 	body {
-		max-width: 375px;
+		/*max-width: 375px;*/
 	}
 
 	.header {
-		max-width: 375px;
+		/*max-width: 375px;*/
 		margin-bottom: 3px;
 		padding-top: 1px;
 		height: 67px;
@@ -373,8 +373,8 @@ body {
 	.banner {
 		background-position: -63px;
 		max-height: 192px;
-		max-width: 375px;
-		min-width: 375px;
+		/*max-width: 375px;*/
+		/*min-width: 375px;*/
 		min-height: 50px;
 	}
 
@@ -398,11 +398,11 @@ body {
 @media (max-width: 320px) {
 
 	body {
-		max-width: 320px;
+		/*max-width: 320px;*/
 	}
 
 	.header {
-		max-width: 320px;
+		/*max-width: 320px;*/
 		margin-bottom: 3px;
 		padding-top: 1px;
 		height: 67px;
@@ -426,8 +426,8 @@ body {
 
 	.banner {
 		background-position: -91px;
-		max-width: 320px;
-		min-width: 273px;
+		/*max-width: 320px;*/
+		/*min-width: 273px;*/
 	}
 
 	.banner__title {
@@ -445,4 +445,11 @@ body {
 		top: 140px;
 	}
 
+}
+
+.preview,
+.main,
+.gallery,
+.footer {
+	display: none;
 }
