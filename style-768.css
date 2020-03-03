@@ -1,0 +1,63 @@
+@media (max-width: 768px) {
+
+	.header {
+		max-width: 768px;
+		min-width: 375px;
+		margin-bottom: 4px;
+		padding-top: 8px;
+	}
+
+	.link__decorate-arrow::after {
+		background-size: contain;
+		height: 14px;
+		left: calc(100% + 8px);
+	 	width: 76px;
+	}
+
+	.header__logo {
+		width: 242px;
+	}
+
+	.logo {
+		background: url(img/logo-768.png) center no-repeat;
+	}
+
+	.nav__item {
+		display: none;
+	}
+	
+	.nav__item_burger-menu {
+		display: block;
+	}
+
+	.header__search {
+		display: none;
+	}
+
+	.profile {
+		display: none;
+	}
+
+	.banner {
+		background-size: cover;
+		background-position: -128px;
+		min-height: 417px;
+		max-width: 768px;
+		min-width: 375px;
+	}
+
+	.banner__title {
+		font-size: 49px;
+		letter-spacing: 0.02em;
+		left: 45px;
+		top: 80px;
+	}
+
+	.banner__link {
+		font-size: 19px;
+		letter-spacing: 0.02em;
+		left: 45px;
+		top: 312px;
+	}
+
+}

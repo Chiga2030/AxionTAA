@@ -5,7 +5,12 @@
 	<meta name="viewport" content="initial-scale=1.0, width=device-width">
 	<title>Axion footwear</title>
 	<link rel="stylesheet" href="./fonts/montserrat/fonts.css">
+	<!-- стили разнесены на кучу файлов исключительно временно, в конце 4го шага проекта, все объединится в один длинный css файл. Сейчас так удобнее описывать стили параллельно для экранов мобильных и настольных устройств -->
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style-1024.css">
+	<link rel="stylesheet" href="style-768.css">
+	<link rel="stylesheet" href="style-375.css">
+	<link rel="stylesheet" href="style-320.css">
 </head>
 <body>
 
@@ -26,7 +31,7 @@
 				</div>
 			</a>
 		</nav>
-			<label class="header__search search"><input class="search-input"></input></label>
+			<label class="header__search search"><input class="search_input"></label>
 			<div class="header__profile profile">
 				<a href="#" class="profile__item link">sign&nbsp;&nbsp;in</a>
 				<a href="#" class="profile__item link">cart <span class="profile__item profile__item_in-cart">1</span></a>
@@ -34,71 +39,72 @@
 			</div>
 	</header>
 
-	<section class="banner">
-		<!-- <img src="./img/banner-img.png" alt="Product banner"> -->
-		<h2 class="banner__title">Legendary footwear reborn.</h2>
-		<a href="#" class="banner__link link link__decorate-arrow">shop now</a>
-	</section>
-
-	<section class="preview">
-		<h2 class="preview__title">Featured product</h2>
-		<div class="preview__wrap-items">
-			<div class="preview__item">
-				<div class="preview__image">
-					<!-- <img src="./img/products/rasta-axion.png" alt="product - Rasta Axion"> -->
-				</div>
-				<p class="preview__breadcrumbs">Atlas Black/Rasta Axion</p>
-				<span class="preview__price">$89.00</span>
-				<div class="preview__wrap-colors">
-					<span class="preview__item-colors_silver"></span>
-					<span class="preview__item-colors_black"></span>
-					<span class="preview__item-colors_brown"></span>
-					<span class="preview__item-colors_goldenrod"></span>
-				</div>
-			</div>
-			<div class="preview__item">
-				<div class="preview__image">
-					<!-- <img src="./img/products/pepper-axion.png" alt="product - Pepper Axion"> -->
-				</div>
-				<p class="preview__breadcrumbs">Camel/Chili Pepper Axion</p>
-				<span class="preview__price">$74.00</span>
-				<div class="preview__wrap-colors">
-					<span class="preview__item-colors_silver"></span>
-					<span class="preview__itemColors_darksalmon"></span>
-					<span class="preview__item-colors_brown"></span>
-					<span class="preview__item-colors_goldenrod"></span>
-				</div>
-			</div>
-			<div class="preview__item">
-				<div class="preview__image">
-					<!-- <img src="./img/products/rust-axion.png" alt="product - Rust Axion"> -->
-				</div>
-				<p class="preview__breadcrumbs">Mandel Smoke/Rust Axion</p>
-				<span class="preview__price">$69.00</span>
-				<div class="preview__wrap-colors">
-					<span class="preview__item-colors_silver"></span>
-					<span class="preview__item-colors_brown"></span>
-					<span class="preview__itemColors_darkslateblue"></span>
-					<span class="preview__item-colors_goldenrod"></span>
-				</div>
-			</div>
-			<div class="preview__item">
-				<div class="preview__image">
-					<!-- <img src="./img/products/electric-blue-axion.png" alt="product - Electric Blue Axion"> -->
-				</div>
-				<p class="preview__breadcrumbs">Cloud/Electric Blue Axion</p>
-				<span class="preview__price">$69.00</span>
-				<div class="preview__wrap-colors">
-					<span class="preview__item-colors_silver"></span>
-					<span class="preview__itemColors_steelblue"></span>
-					<span class="preview__item-colors_brown"></span>
-					<span class="preview__item-colors_goldenrod"></span>
-				</div>
-			</div>
-		</div>
-	</section>
-	
 	<main class="main">
+		
+		<section class="banner">
+			<!-- <img src="./img/banner-img.png" alt="Product banner"> -->
+			<h2 class="banner__title">Legendary footwear reborn.</h2>
+			<a href="#" class="banner__link link link__decorate-arrow">shop nowa</a>
+		</section>
+
+		<section class="preview">
+			<h2 class="preview__title">Featured product</h2>
+			<div class="preview__wrap-items">
+				<div class="preview__item">
+					<div class="preview__image preview__image_rasta">
+						<!-- <img src="./img/products/rasta-axion.png" alt="product - Rasta Axion"> -->
+					</div>
+					<p class="preview__breadcrumbs">Atlas Black/Rasta Axion</p>
+					<span class="preview__price">$89.00</span>
+					<div class="preview__wrap-colors">
+						<span class="preview__item-colors_silver"></span>
+						<span class="preview__item-colors_black preview__item-colors_big"></span>
+						<span class="preview__item-colors_brown"></span>
+						<span class="preview__item-colors_goldenrod"></span>
+					</div>
+				</div>
+				<div class="preview__item">
+					<div class="preview__image preview__image_pepper">
+						<!-- <img src="./img/products/pepper-axion.png" alt="product - Pepper Axion"> -->
+					</div>
+					<p class="preview__breadcrumbs">Camel/Chili Pepper Axion</p>
+					<span class="preview__price">$74.00</span>
+					<div class="preview__wrap-colors">
+						<span class="preview__item-colors_silver"></span>
+						<span class="preview__item-colors_darksalmon preview__item-colors_big"></span>
+						<span class="preview__item-colors_brown"></span>
+						<span class="preview__item-colors_goldenrod"></span>
+					</div>
+				</div>
+				<div class="preview__item">
+					<div class="preview__image preview__image_rust">
+						<!-- <img src="./img/products/rust-axion.png" alt="product - Rust Axion"> -->
+					</div>
+					<p class="preview__breadcrumbs">Mandel Smoke/Rust Axion</p>
+					<span class="preview__price">$69.00</span>
+					<div class="preview__wrap-colors">
+						<span class="preview__item-colors_silver"></span>
+						<span class="preview__item-colors_brown preview__item-colors_big"></span>
+						<span class="preview__item-colors_darkslateblue"></span>
+						<span class="preview__item-colors_goldenrod"></span>
+					</div>
+				</div>
+				<div class="preview__item">
+					<div class="preview__image preview__image_blue">
+						<!-- <img src="./img/products/electric-blue-axion.png" alt="product - Electric Blue Axion"> -->
+					</div>
+					<p class="preview__breadcrumbs">Cloud/Electric Blue Axion</p>
+					<span class="preview__price">$69.00</span>
+					<div class="preview__wrap-colors">
+						<span class="preview__item-colors_silver"></span>
+						<span class="preview__item-colors_steelblue preview__item-colors_big"></span>
+						<span class="preview__item-colors_brown"></span>
+						<span class="preview__item-colors_goldenrod"></span>
+					</div>
+				</div>
+			</div>
+		</section>
+	
 		<section class="blog-main">
 			<div class="blog-main__video-preview">
 				<!-- <img src="./img/video-preview.png" alt="preview for video"> -->
