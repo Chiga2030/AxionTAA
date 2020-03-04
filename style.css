@@ -158,7 +158,7 @@ body {
 	background: url(img/banner-img.png) no-repeat;
 	background-size: cover;
 	min-height: 281px;
-	margin: auto;
+	margin: 0 auto 50px;
 	max-width: 1030px;
 	position: relative;
 }
@@ -183,130 +183,145 @@ body {
 
 /* block Preview */
 
-.preview {
-	margin: auto;
-	max-width: 990px;
-	position: relative;;;
-}
-
 .preview__title {
-	font-size: 1.7em;
-	margin-bottom: .7em;
-	padding-top: 1.4em;
-	text-align: center;
-	text-transform: uppercase;
+  font-size: 1.7em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 14px;
 }
 
 .preview__wrap-items {
-	display: flex;
-	justify-content: space-between;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  max-width: 1060px;
+  margin: auto;
 }
 
 .preview__item {
-	position: relative;
-}
-
-.preview__item:nth-child(1)::after,
-.preview__item:nth-child(2)::after,
-.preview__item:nth-child(3)::after {
-	border-right: .1em solid #0003;
-	content: '';
-	height: 100px;
-	position: absolute;
-	right: -42px;
-	top: 42px;
+  box-sizing: border-box;
+  height: 261px;
+  position: relative;
+  width: 231px;
 }
 
 .preview__image {
-	background-size: cover;
-	height: 178px;
-	margin-bottom: 22px;
-	width: 187px;
+  height: 173px;
+  margin: 0 auto 14px;
+  width: 188px;
+}
+
+.preview__item:nth-child(2) {
+	transform: translateX(2px);
+}
+
+.preview__item:nth-child(3) {
+	transform: translateX(3px);
+}
+
+.preview__item:nth-child(4) {
+	transform: translateX(5px);
+}
+
+.preview__item::after {
+  background: #00000033;
+  content: '';
+  height: 100px;
+  position: absolute;
+  top: 41px;
+  right: -1.4em;
+  width: 1px;
+}
+
+.preview__item:last-child::after {
+  content: none;
 }
 
 .preview__image_rasta {
-	background: url(img/products/rasta-axion.png);
+  background: url(./img/products/rasta-axion.png) no-repeat;
 }
 
 .preview__image_pepper {
-	background: url(img/products/pepper-axion.png);
+  background: url(./img/products/pepper-axion.png) no-repeat;
 }
 
 .preview__image_rust {
-	background: url(img/products/rust-axion.png);
+  background: url(./img/products/rust-axion.png) no-repeat;
 }
 
 .preview__image_blue {
-	background: url(img/products/electric-blue-axion.png);
+  background: url(./img/products/electric-blue-axion.png) no-repeat;
 }
 
 .preview__breadcrumbs {
-	letter-spacing: -.02em;
-	margin: 0 0 3px;
-	transform: translateX(-8px);
+  font-size: 	1em;
+  height: 24px;
+  left: .9em;
+  letter-spacing: -0.02em;
+  position: absolute;
+  width: 206px;
 }
 
 .preview__price {
-	font: bold 1.1em montserrat;
-	letter-spacing: .011em;
-	position: absolute;
-	transform: translateX(-6px);
+  bottom: 1.7em;
+  font-size: 1.1em;
+  font-weight: bold;
+  left: .8em;
+  position: absolute;
 }
 
 .preview__wrap-colors {
-	align-items: center;
-	display: flex;
-	justify-content: space-around;
-	height: 19px;
-	position: absolute;
-	right: -16px;
-	width: 65px;
+  align-items: center;
+  bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  height: 18px;
+  position: absolute;
+  right: 15px;
+  width: 56px;
 }
 
-.preview__item-colors_silver,
-.preview__item-colors_black,
-.preview__item-colors_brown,
-.preview__item-colors_goldenrod,
-.preview__item-colors_darksalmon,
-.preview__item-colors_darkslateblue,
-.preview__item-colors_steelblue {
-	border-radius: 50px;
-	height: .6em;
-	width: .6em;
+.preview__item-circle {
+  border-radius: 50px;
+  display: inline-block;
+  height: 7px;
+  width: 7px;
 }
 
-.preview__item-colors_silver {
+.preview__item-circle_big {
+  height: 9px;
+  width: 9px;
+}
+
+.preview__item-circle_silver {
 	background: #C4C4C4;
 }
 
-.preview__item-colors_black {
+.preview__item-circle_black {
 	background: #0E1211;
 }
 
-.preview__item-colors_brown {
+.preview__item-circle_brown {
 	background: #B62E3C;
 }
 
-.preview__item-colors_goldenrod {
+.preview__item-circle_goldenrod {
 	background: #FDB431;
 }
 
-.preview__item-colors_darksalmon {
+.preview__item-circle_darksalmon {
 	background: #e29d69;
 }
 
-.preview__item-colors_darkslateblue {
+.preview__item-circle_darkslateblue {
 	background: #41479b;
 }
 
-.preview__item-colors_steelblue {
+.preview__item-circle_steelblue {
 	background: #327da9;
 }
 
-.preview__item-colors_big {
-	height: .7em;
-	width: .7em;
-}
+
 
 .blog-additional,
 .blog-main,

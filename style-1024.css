@@ -36,7 +36,7 @@
 		right: 204px;
 	}
 
-	.search-input {
+	.search_input {
 		max-width: 130px;
 	}
 
@@ -58,17 +58,77 @@
 		background-position: 10px;
 		min-height: 254px;
 		max-width: 950px;
+		margin-bottom: 63px;
 		min-width: 768px;
 	}
 
 	.banner__title {
-		left: 54px;
+		left: 64px;
 		top: 51px;
 	}
 
 	.banner__link {
-		left: 54px;
+		left: 64px;
 		top: 172px;
+	}
+
+	/* block Preview */
+
+	.preview__title {
+	  margin-bottom: 24px;
+	}
+
+	.preview__wrap-items {
+	  max-width: 960px;
+	}
+
+	.preview__image {
+	  margin-bottom: 7px;
+	  width: 170px;
+	}
+
+	.preview__item::after {
+	  right: -.4em;
+	  top: 33px;
+	}
+
+	.preview__item:last-child::after {
+	  content: none;
+	}
+
+	.preview__image_rasta {
+	  background: url(./img/products/rasta-axion.png) no-repeat;
+		background-size: contain;
+	}
+
+	.preview__image_pepper {
+	  background: url(./img/products/pepper-axion.png) no-repeat;
+		background-size: contain;
+	}
+
+	.preview__image_rust {
+	  background: url(./img/products/rust-axion.png) no-repeat;
+		background-size: contain;
+	}
+
+	.preview__image_blue {
+	  background: url(./img/products/electric-blue-axion.png) no-repeat;
+		background-size: contain;
+	}
+
+	.preview__breadcrumbs {
+	  left: 1.6em;
+	}
+
+	.preview__price {
+	  bottom: 2.3em;
+	  left: 1.6em;
+	}
+
+	.preview__wrap-colors {
+	  bottom: 32px;
+	  right: 24px;
+	  width: 49px;
 	}
 
 }
