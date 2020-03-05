@@ -20,7 +20,7 @@
 	}
 
 	.logo {
-		background: url(img/logo-375.png) center no-repeat;
+		background: url(./img/logo-375.png) center no-repeat;
 	}
 	
 	.nav__item_burger-menu {
@@ -44,6 +44,7 @@
 		background-position: -63px;
 		background-size: cover;
 		max-width: 375px;
+		margin-bottom: 2.67em;
 		min-width: 320px;
 		min-height: 192px;
 	}
@@ -66,75 +67,70 @@
 	/* block Preview */
 
 	.preview__title {
-	  font-size: 2.26em;
-	  transform: translateX(-9px);
-	  letter-spacing: .3px;
-	  margin-bottom: 32px;
+	  font-size: 1.5em;
+	  transform: translateX(-5px);
+	  margin-bottom: 0px;
 	}
 
 	.preview__wrap-items {
-	  max-width: 690px;
+	  max-width: 375px;
 	}
 
 	.preview__item {
 	  box-sizing: border-box;
-	  height: 352px;
-	  position: relative;
-	  width: 280px;
+	  height: 267px;
+	  width: 281px;
 	}
 
 	.preview__image {
-	  height: 233px;
-	  width: 230px;
+	  height: 171px;
+	  width: 163px;
+	  transform: translateX(3px);
 	}
 
+	.preview__item:nth-child(2),
 	.preview__item:nth-child(3),
 	.preview__item:nth-child(4) {
 		display: none;
 	}
 
-	.preview__item::after {
-		content: none;
-	}
-
-	.preview__image_rasta {
-	  background: url(./img/products/rasta-axion.png) no-repeat;
-	  background-size: contain;
-	}
-
-	.preview__image_pepper {
-	  background: url(./img/products/pepper-axion.png) no-repeat;
-	  background-size: contain;
-	}
-
 	.preview__breadcrumbs {
 		transform: translateY(-18px);
-	  font-size: 	1.5em;
-	  left: .7em;
-	  letter-spacing: .03em;
+	  font-size: 	1.2em;
+	  left: 1em;
+	  letter-spacing: .001em;
 	  width: 260px;
 	}
 
 	.preview__price {
-	  bottom: 1.7em;
-	  font-size: 2em;
-	  left: .5em;
+	  bottom: 2.20em;
+	  font-size: 1.61em;
+	  left: .7em;
 	}
 
 	.preview__wrap-colors {
-	  bottom: 50px;
-	  right: 15px;
-	  width: 96px;
+	  bottom: 47px;
+	  justify-content: space-between;
+	  right: 0px;
+	  width: 74px;
 	}
 
 	.preview__item-circle {
-	  height: 20px;
-	  width: 20px;
+	  height: 15px;
+	  width: 15px;
+	}
+
+	.preview__item-circle_silver {
+		order: 1;
+	}
+	
+	.preview__item-circle_goldenrod {
+		order: 1;
 	}
 
 	.preview__item-circle_big {
-	  height: 20px;
-	  width: 20px;
+	  height: 15px;
+	  width: 15px;
 	}
 
 

@@ -13,7 +13,7 @@ body {
 }
 
 .link__decorate-arrow::after {
-	background: url(img/arrow.svg) no-repeat;
+	background: url(./img/arrow.svg) no-repeat;
 	content: '';
 	height: 1em;
 	left: calc(100% + 6px);
@@ -37,7 +37,7 @@ body {
 }
 
 .logo {
-	background: url(img/logo.png) center no-repeat;
+	background: url(./img/logo.png) center no-repeat;
 	background-size: cover;
 	height: 55px;
 	width: 55px;
@@ -91,7 +91,7 @@ body {
 
 .search::after {
 	content: '';
-	background: url(img/search.svg);
+	background: url(./img/search.svg);
   background-size: cover;
 	bottom: 6px;
 	height: 14px;
@@ -145,7 +145,7 @@ body {
 }
 
 .profile__item_language {
-	background: url(img/language/en.svg) 0px -2px;
+	background: url(./img/language/en.svg) 0px -2px;
 	background-size: cover;
 	height: 20px;
 	width: 20px;
@@ -155,7 +155,7 @@ body {
 /* block banner */
 
 .banner {
-	background: url(img/banner-img.png) no-repeat;
+	background: url(./img/banner-img.png) no-repeat;
 	background-size: cover;
 	min-height: 281px;
 	margin: 0 auto 50px;
