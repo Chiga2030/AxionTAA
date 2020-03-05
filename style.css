@@ -1,5 +1,331 @@
 body {
 	font: normal .8em montserrat;
-	max-width: 1170px;
 	margin: 0 auto;
+}
+
+.link {
+	color: #000;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: -0.06em;
+	position: relative;
+}
+
+.link__decorate-arrow::after {
+	background: url(./img/arrow.svg) no-repeat;
+	content: '';
+	height: 1em;
+	left: calc(100% + 6px);
+	position: absolute;
+	top: 4px;
+  	width: 44px;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	max-width: 1030px;
+	margin: 0 auto 5px;
+	height: 100px;
+	padding-top: 10px;
+	position: relative;
+}
+
+.header__logo {
+	margin-right: 45px;
+}
+
+.logo {
+	background: url(./img/logo.png) center no-repeat;
+	background-size: cover;
+	height: 55px;
+	width: 55px;
+}
+
+.header__nav {
+	padding-bottom: 2px;
+}
+
+.nav__item:nth-child(1) {
+	margin-right: 31px;
+}
+
+.nav__item:nth-child(2),
+.nav__item:nth-child(3) {
+	margin-right: 32px;
+}
+
+.nav__item:nth-child(4) {
+	margin-right: 34px;
+}
+
+.nav__item_burger-menu {
+	display: none;
+	height: 26px;
+	position: absolute;
+	right: 44px;
+	top: 46px;
+	width: 61px;
+}
+
+.burger-menu__top {
+	height: 9px;
+	width: 61px;
+	background: #000;
+	position: absolute;
+}
+
+.burger-menu__bottom {
+	height: 9px;
+	width: 61px;
+	background: #000;
+	bottom: 0px;
+	position: absolute;
+}
+
+.header__search {
+	position: absolute;
+	right: 227px;
+}
+
+.search::after {
+	content: '';
+	background: url(./img/search.svg);
+  background-size: cover;
+	bottom: 6px;
+	height: 14px;
+	position: absolute;
+	right: 1px;
+	width: 14px;
+}
+
+.search_input {
+	border: 0;
+	border-bottom: 2px solid #000;
+	height: 22px;
+	padding: 1px 24px 1px 8px;
+	width: 145px;
+}
+
+.search_input:focus {
+	outline: none;
+}
+
+.header__profile {
+	padding-bottom: 2px;
+	right: 20px;
+}
+
+.profile {
+	position: absolute;
+}
+
+.profile__item:nth-child(1) {
+	margin-right: 32px;
+}
+
+.profile__item:nth-child(2) {
+	margin-right: 56px;
+}
+
+.profile__item_in-cart {
+	background: #000;
+	border-radius: 50px;
+	color: #fff;
+	font: bold 11px montserrat;
+	line-height: 16px;
+	height: 15px;
+	width: 15px;
+	transform: translateX(6px);
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: .001em;
+	position: absolute;
+}
+
+.profile__item_language {
+	background: url(./img/language/en.svg) 0px -2px;
+	background-size: cover;
+	height: 20px;
+	width: 20px;
+	position: absolute;
+}
+
+/* block banner */
+
+.banner {
+	background: url(./img/banner-img.png) no-repeat;
+	background-size: cover;
+	min-height: 281px;
+	margin: 0 auto 50px;
+	max-width: 1030px;
+	position: relative;
+}
+
+.banner__title {
+	color: #fff;
+	font-size: 2.35em;
+	position: absolute;
+	top: 63px;
+	left: 60px;
+	text-transform: uppercase;
+	letter-spacing: 0em;
+	line-height: 1.01em;
+	max-width: 300px;
+}
+
+.banner__link {
+	color: #fff;
+	top: 191px;
+	left: 60px;
+}
+
+/* block Preview */
+
+.preview__title {
+  font-size: 1.7em;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+
+.preview__wrap-items {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  max-width: 1060px;
+  margin: auto;
+}
+
+.preview__item {
+  box-sizing: border-box;
+  height: 261px;
+  position: relative;
+  width: 231px;
+}
+
+.preview__image {
+  height: 173px;
+  margin: 0 auto 14px;
+  width: 188px;
+}
+
+.preview__item:nth-child(2) {
+	transform: translateX(2px);
+}
+
+.preview__item:nth-child(3) {
+	transform: translateX(3px);
+}
+
+.preview__item:nth-child(4) {
+	transform: translateX(5px);
+}
+
+.preview__item::after {
+  background: #00000033;
+  content: '';
+  height: 100px;
+  position: absolute;
+  top: 41px;
+  right: -1.4em;
+  width: 1px;
+}
+
+.preview__item:last-child::after {
+  content: none;
+}
+
+.preview__image_rasta {
+  background: url(./img/products/rasta-axion.png) no-repeat;
+}
+
+.preview__image_pepper {
+  background: url(./img/products/pepper-axion.png) no-repeat;
+}
+
+.preview__image_rust {
+  background: url(./img/products/rust-axion.png) no-repeat;
+}
+
+.preview__image_blue {
+  background: url(./img/products/electric-blue-axion.png) no-repeat;
+}
+
+.preview__breadcrumbs {
+  font-size: 	1em;
+  height: 24px;
+  left: .9em;
+  letter-spacing: -0.02em;
+  position: absolute;
+  width: 206px;
+}
+
+.preview__price {
+  bottom: 1.7em;
+  font-size: 1.1em;
+  font-weight: bold;
+  left: .8em;
+  position: absolute;
+}
+
+.preview__wrap-colors {
+  align-items: center;
+  bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  height: 18px;
+  position: absolute;
+  right: 15px;
+  width: 56px;
+}
+
+.preview__item-circle {
+  border-radius: 50px;
+  display: inline-block;
+  height: 7px;
+  width: 7px;
+}
+
+.preview__item-circle_big {
+  height: 9px;
+  width: 9px;
+}
+
+.preview__item-circle_silver {
+	background: #C4C4C4;
+}
+
+.preview__item-circle_black {
+	background: #0E1211;
+}
+
+.preview__item-circle_brown {
+	background: #B62E3C;
+}
+
+.preview__item-circle_goldenrod {
+	background: #FDB431;
+}
+
+.preview__item-circle_darksalmon {
+	background: #e29d69;
+}
+
+.preview__item-circle_darkslateblue {
+	background: #41479b;
+}
+
+.preview__item-circle_steelblue {
+	background: #327da9;
+}
+
+
+
+.blog-additional,
+.blog-main,
+.gallery,
+.footer {
+	display: none;
 }

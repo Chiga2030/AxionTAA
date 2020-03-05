@@ -1,0 +1,142 @@
+@media (max-width: 768px) {
+
+	.header {
+		max-width: 768px;
+		min-width: 375px;
+		margin-bottom: 4px;
+		padding-top: 8px;
+	}
+
+	.link__decorate-arrow::after {
+		background-size: contain;
+		height: 14px;
+		left: calc(100% + 8px);
+	 	width: 76px;
+	}
+
+	.header__logo {
+		width: 242px;
+	}
+
+	.logo {
+		background: url(./img/logo-768.png) center no-repeat;
+	}
+
+	.nav__item {
+		display: none;
+	}
+	
+	.nav__item_burger-menu {
+		display: block;
+	}
+
+	.header__search {
+		display: none;
+	}
+
+	.profile {
+		display: none;
+	}
+
+	.banner {
+		background-size: cover;
+		background-position: -128px;
+		min-height: 417px;
+		max-width: 768px;
+		margin-bottom: 4.8em;
+		min-width: 375px;
+	}
+
+	.banner__title {
+		font-size: 49px;
+		letter-spacing: 0.02em;
+		left: 45px;
+		top: 80px;
+	}
+
+	.banner__link {
+		font-size: 19px;
+		letter-spacing: 0.02em;
+		left: 45px;
+		top: 312px;
+	}
+
+	/* block Preview */
+
+	.preview__title {
+	  font-size: 2.26em;
+	  transform: translateX(-9px);
+	  letter-spacing: .3px;
+	  margin-bottom: 32px;
+	}
+
+	.preview__wrap-items {
+	  max-width: 690px;
+	}
+
+	.preview__item {
+	  box-sizing: border-box;
+	  height: 352px;
+	  position: relative;
+	  width: 280px;
+	}
+
+	.preview__image {
+	  height: 233px;
+	  width: 230px;
+	}
+
+	.preview__item:nth-child(3),
+	.preview__item:nth-child(4) {
+		display: none;
+	}
+
+	.preview__item::after {
+		content: none;
+	}
+
+	.preview__image_rasta {
+	  background: url(./img/products/rasta-axion.png) no-repeat;
+	  background-size: contain;
+	}
+
+	.preview__image_pepper {
+	  background: url(./img/products/pepper-axion.png) no-repeat;
+	  background-size: contain;
+	}
+
+	.preview__breadcrumbs {
+		transform: translateY(-18px);
+	  font-size: 	1.5em;
+	  left: .7em;
+	  letter-spacing: .03em;
+	  width: 260px;
+	}
+
+	.preview__price {
+	  bottom: 1.7em;
+	  font-size: 2em;
+	  left: .5em;
+	}
+
+	.preview__wrap-colors {
+	  bottom: 50px;
+	  right: 15px;
+	  width: 96px;
+	}
+
+	.preview__item-circle {
+	  height: 20px;
+	  width: 20px;
+	}
+
+	.preview__item-circle_big {
+	  height: 20px;
+	  width: 20px;
+	}
+
+	.preview__item-circle_brown {
+		order: -1;
+	}
+
+}
