@@ -3,6 +3,12 @@ body {
 	margin: 0 auto;
 }
 
+.title {
+	font-size: 1.7em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .link {
 	color: #000;
 	font-weight: bold;
@@ -19,7 +25,11 @@ body {
 	left: calc(100% + 6px);
 	position: absolute;
 	top: 4px;
-  	width: 44px;
+  width: 44px;
+}
+
+.link__decorate-arrow_dark::after {
+	background: url(./img/arrow-dark.svg) no-repeat;
 }
 
 .header {
@@ -188,9 +198,6 @@ body {
 }
 
 .preview__title {
-  font-size: 1.7em;
-  text-align: center;
-  text-transform: uppercase;
   margin-bottom: 14px;
 }
 
@@ -335,7 +342,7 @@ body {
 	justify-content: space-around;
 	height: 494px;
 	width: 1030px;
-	margin: auto;
+	margin: 0 auto 75px;
 }
 
 .blog-main__video-preview {
@@ -394,12 +401,207 @@ body {
 	color: #fff;
 }
 
+/* block blog-additional */
 
+.blog-additional {
+	margin: auto;
+	max-width: 1030px;
+	margin-bottom: 75px;
+}
 
+.blog-additional__title {
+	margin-bottom: 41px
+}
 
+.blog-additional__wrap-items {
+	display: grid;
+	grid-template-columns: 307px 307px 307px;
+	justify-content: space-between;
+	max-width: 1030px;
+}
 
-.blog-additional,
-.gallery,
+.blog-additional__item {
+	max-width: 307px;
+	position: relative;
+}
+
+.blog-additional__image {
+	height: 147px;
+	margin-bottom: 30px;
+	width: 307px;
+}
+
+.blog-additional__image_post-68 {
+	background: url(./img/blog/post-68/preview.png);
+}
+
+.blog-additional__image_post-69 {
+	background: url(./img/blog/post-69/preview.png);
+}
+
+.blog-additional__image_post-67 {
+	background: url(./img/blog/post-67/preview.png);
+}
+
+.blog-additional__item-title {
+	font-size: 1.4em;
+	font-weight: bold;
+	letter-spacing: -.01em;
+	margin-bottom: 5px;
+}
+
+.blog-additional__lead {
+	font-size: 1.1em;
+	letter-spacing: -.002em;
+	line-height: 1.3em;
+	margin: 0  0 12px;
+	padding: 0;
+	width: 21.865em;
+}
+
+.blog-additional__date {
+	color: #bbb;
+	font-weight: bold;
+	position: absolute;
+	right: 0;
+}
+
+/* block gallery */
+
+.gallery {
+	max-width: 1030px;
+	margin: 0 auto 79px;
+	position: relative;
+}
+
+.gallery__social-tag {
+	color: #bbb;
+	font-size: 1.4em;
+	font-weight: bold;
+	letter-spacing: .009em;
+	position: absolute;
+	right: 0;
+	text-transform: uppercase;
+}
+
+.gallery__wrap-items {
+	display: grid;
+	grid-template-columns: 147px 147px 147px 147px 147px 147px 147px;
+	align-items: end;
+	height: 178px;
+}
+
+.gallery__image_photo1 {
+	background: url(./img/gallery/social-net/1.jpg);
+}
+
+.gallery__image_photo2 {
+	background: url(./img/gallery/social-net/2.jpg);
+}
+
+.gallery__image_photo3 {
+	background: url(./img/gallery/social-net/3.jpg) -1px;
+}
+
+.gallery__image_photo4 {
+	background: url(./img/gallery/social-net/4.jpg) -1px;
+	transform: translateX(-1px);
+}
+
+.gallery__image_photo5 {
+	background: url(./img/gallery/social-net/5.jpg) -1px;
+	transform: translateX(-2px);
+}
+
+.gallery__image_photo6 {
+	background: url(./img/gallery/social-net/6.jpg) -1px;
+	transform: translateX(-3px);
+}
+
+.gallery__image_photo7 {
+	background: url(./img/gallery/social-net/7.jpg) -1px;
+	transform: translateX(-4px);
+}
+
+.gallery__image {
+	background-size: cover;
+	height: 148px;
+	width: 148px;
+}
+
+/* block footer */
+
 .footer {
-	display: none;
+	background: #000;
+	color: #fff;
+	margin: auto;
+	width: 1170px;
+}
+
+.footer__wrap-items {
+	align-content: center;
+	display: grid;
+	grid-template-columns: 200px 200px 200px 250px;
+	height: 283px;
+	justify-content: center;
+}
+
+.footer__item {
+	position: relative;
+}
+
+.footer__title,
+.social__title {
+	font-size: 1em;
+	position: absolute;
+	left: 41px;
+	letter-spacing: -0.05em;
+	top: -18px;
+	text-transform: uppercase;
+}
+
+.footer__list-item {
+	line-height: 1.45em;
+	list-style: none;
+}
+
+.footer__link {
+	color: #fff;
+	font-weight: normal;
+	letter-spacing: -0.018em;
+	text-decoration: none;
+	text-transform: none;
+}
+
+.social {
+	position: relative;
+}
+
+.social__list-item {
+	transform: translateY(-3px);
+	list-style: none;
+}
+
+.social__button {
+background: #000;
+border: 2px solid #fff;
+cursor: pointer;
+color: #fff;
+font-size: 0.95em;
+height: 31px;
+letter-spacing: 0.04em;
+transform: translate(40px, -5px);
+width: 137px;
+}
+
+.social__wrap-items {
+
+}
+
+.social__item {
+
+}
+
+.address {
+
 }
