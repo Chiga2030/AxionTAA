@@ -486,7 +486,7 @@ body {
 
 .gallery__wrap-items {
 	display: grid;
-	grid-template-columns: 147px 147px 147px 147px 147px 147px 147px;
+	grid-template-columns: repeat(7, 147px);
 	align-items: end;
 	height: 178px;
 }
@@ -536,7 +536,7 @@ body {
 	color: #fff;
 	margin: auto;
 	position: relative;
-	width: 1170px;
+	max-width: 1170px;
 }
 
 .footer__wrap-items {
