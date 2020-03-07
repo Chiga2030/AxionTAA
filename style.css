@@ -535,15 +535,17 @@ body {
 	background: #000;
 	color: #fff;
 	margin: auto;
+	position: relative;
 	width: 1170px;
 }
 
 .footer__wrap-items {
-	align-content: center;
+	align-content: end;
 	display: grid;
 	grid-template-columns: 200px 200px 200px 250px;
-	height: 283px;
+	height: 209px;
 	justify-content: center;
+	margin-bottom: 40px;
 }
 
 .footer__item {
@@ -568,7 +570,7 @@ body {
 .footer__link {
 	color: #fff;
 	font-weight: normal;
-	letter-spacing: -0.018em;
+	letter-spacing: -0.04em;
 	text-decoration: none;
 	text-transform: none;
 }
@@ -578,30 +580,63 @@ body {
 }
 
 .social__list-item {
-	transform: translateY(-3px);
 	list-style: none;
+	transform: translateY(-3px);
 }
 
 .social__button {
-background: #000;
-border: 2px solid #fff;
-cursor: pointer;
-color: #fff;
-font-size: 0.95em;
-height: 31px;
-letter-spacing: 0.04em;
-transform: translate(40px, -5px);
-width: 137px;
+	background: #000;
+	border: 2px solid #fff;
+	cursor: pointer;
+	color: #fff;
+	font-size: 0.95em;
+	height: 31px;
+	letter-spacing: 0.04em;
+	margin-bottom: 28px;
+	transform: translate(40px, -6px);
+	width: 137px;
 }
 
 .social__wrap-items {
+	display: flex;
+	justify-content: space-around;
+	left: 24px;
+	position: absolute;
+	right:62px;
+}
 
+.social__item_facebook {
+	background: url(img/icons/facebook.svg) no-repeat;
+}
+.social__item_twitter {
+	background: url(img/icons/twitter.svg) no-repeat;
+}
+.social__item_instagram {
+	background: url(img/icons/instagram.svg) no-repeat;
+}
+.social__item_pinterest {
+	background: url(img/icons/pinterest.svg) no-repeat;
 }
 
 .social__item {
-
+	background-size: contain;
+	background-position: bottom;
+	height: 18px;
+	width: 18px;
 }
 
 .address {
+	font-style: normal;
+	text-align: center;
+	letter-spacing: -0.02em;
+	padding-bottom: 32px;
+}
 
+.web-hero-school {
+	background: url(img/web-hero-school.png) no-repeat;
+	bottom: 20px;
+	height: 37px;
+	position: absolute;
+	right:20px;
+	width: 93px;
 }
