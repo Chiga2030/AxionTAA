@@ -221,42 +221,17 @@
 	/* block gallery */
 
 	.gallery {
-		max-width: 930px;
-		margin-bottom: 93px;
+		max-width: calc(133px * 7);
+		margin-bottom: 124px;
 	}
 
 	.gallery__wrap-items {
-		grid-template-columns: repeat(7, 134px);
-		height: 164px;
-	}
-
-	.gallery__image_photo2 {
-		transform: translateX(-2px);
-	}
-
-	.gallery__image_photo3 {
-		transform: translateX(-2px);
-	}
-
-	.gallery__image_photo4 {
-		transform: translateX(-3px);
-	}
-
-	.gallery__image_photo5 {
-		transform: translateX(-5px);
-	}
-
-	.gallery__image_photo6 {
-		transform: translateX(-6px);
-	}
-
-	.gallery__image_photo7 {
-		transform: translateX(-7px);
+		grid-template-columns: repeat(7, 133px);
 	}
 
 	.gallery__image {
-		height: 135px;
-		width: 135px;
+		height: 133px;
+		width: 133px;
 	}
 
 	/* block footer */

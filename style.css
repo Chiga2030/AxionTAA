@@ -469,8 +469,8 @@ body {
 /* block gallery */
 
 .gallery {
-	max-width: 1030px;
-	margin: 0 auto 79px;
+	max-width: calc(147px * 7);
+	margin: 0 auto 110px;
 	position: relative;
 }
 
@@ -487,8 +487,7 @@ body {
 .gallery__wrap-items {
 	display: grid;
 	grid-template-columns: repeat(7, 147px);
-	align-items: end;
-	height: 178px;
+  transform: translateY(30px);
 }
 
 .gallery__image_photo1 {
@@ -500,33 +499,33 @@ body {
 }
 
 .gallery__image_photo3 {
-	background: url(./img/gallery/social-net/3.jpg) -1px;
+	background: url(./img/gallery/social-net/3.jpg);
 }
 
 .gallery__image_photo4 {
-	background: url(./img/gallery/social-net/4.jpg) -1px;
-	transform: translateX(-1px);
+	background: url(./img/gallery/social-net/4.jpg);
 }
 
 .gallery__image_photo5 {
-	background: url(./img/gallery/social-net/5.jpg) -1px;
-	transform: translateX(-2px);
+	background: url(./img/gallery/social-net/5.jpg);
 }
 
 .gallery__image_photo6 {
-	background: url(./img/gallery/social-net/6.jpg) -1px;
-	transform: translateX(-3px);
+	background: url(./img/gallery/social-net/6.jpg);
 }
 
 .gallery__image_photo7 {
-	background: url(./img/gallery/social-net/7.jpg) -1px;
-	transform: translateX(-4px);
+	background: url(./img/gallery/social-net/7.jpg);
+}
+
+.gallery__image_photo8 {
+	display: none;
 }
 
 .gallery__image {
 	background-size: cover;
-	height: 148px;
-	width: 148px;
+	height: 147px;
+	width: 147px;
 }
 
 /* block footer */
