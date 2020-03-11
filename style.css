@@ -14,7 +14,7 @@ body {
 	font-weight: bold;
 	text-transform: uppercase;
 	text-decoration: none;
-	letter-spacing: -0.06em;
+	letter-spacing: -.06em;
 	position: relative;
 }
 
@@ -268,7 +268,7 @@ body {
   font-size: 	1em;
   height: 24px;
   left: .9em;
-  letter-spacing: -0.02em;
+  letter-spacing: -.02em;
   position: absolute;
   width: 206px;
 }
@@ -383,7 +383,7 @@ body {
 .blog-main__title {
 	color: #fff;
 	font-size: 1.75em;
-	letter-spacing: -0.02em;
+	letter-spacing: -.02em;
 	line-height: 1.25em;
 	margin-bottom: 0;
 	text-transform: uppercase;
@@ -392,7 +392,7 @@ body {
 
 .blog-main__lead {
 	color: #fff;
-	letter-spacing: 0.04em;
+	letter-spacing: .04em;
 	line-height: 1.45em;
 	margin-bottom: 16px;
 }
@@ -533,112 +533,130 @@ body {
 .footer {
 	background: #000;
 	color: #fff;
+	height: 296px;
 	margin: auto;
-	position: relative;
 	max-width: 1170px;
-}
-
-.footer__wrap-items {
-	align-content: end;
-	display: grid;
-	grid-template-columns: 200px 200px 200px 250px;
-	height: 209px;
-	justify-content: center;
-	margin-bottom: 40px;
-}
-
-.footer__item {
 	position: relative;
 }
 
-.footer__item-column {
-	list-style: none;
+.footer__column-wrapper {
+	display: flex;
+	justify-content: flex-start;
+	margin: auto;
+	max-width: 770px;
+	transform: translateY(57px);
 }
 
-.footer__title,
-.social__title {
-	font-weight: bold;
-	font-size: 1em;
-	position: absolute;
-	left: 41px;
-	letter-spacing: -0.05em;
-	top: -9px;
+.footer__column:nth-child(1) {
+	margin-right: 115px;
+}
+
+.footer__column:nth-child(2) {
+	margin-right: 72px;
+}
+
+.footer__column-title {
+	font-size: .9em;
+	letter-spacing: .02em;
 	text-transform: uppercase;
 }
 
-.footer__list-item {
-	line-height: 1.45em;
+.footer__column-item {
+	display: block;
+	line-height: 1.41em;
+	transform: translateY(-2px);
 }
 
 .footer__link {
 	color: #fff;
 	font-weight: normal;
-	letter-spacing: -0.04em;
-	text-decoration: none;
+	letter-spacing: -.04em;
 	text-transform: none;
 }
 
-.social {
-	position: relative;
+.footer__social {
+	right: 170px;
+	top: 57px;
 }
 
-.social__list-item {
-	transform: translateY(-3px);
+.social {
+	position: absolute;
+	height: 100px;
+	width: 200px;
+}
+
+.social__title {
+	font-size: .9em;
+	letter-spacing: .02em;
+	text-transform: uppercase;
+}
+
+.social__item {
+	display: inline-block;
+	letter-spacing: -.025em;
+	transform: translateY(-5px);
 }
 
 .social__button {
 	background: #000;
 	border: 2px solid #fff;
-	cursor: pointer;
 	color: #fff;
-	font-size: 0.95em;
-	height: 31px;
-	letter-spacing: 0.04em;
-	margin-bottom: 28px;
-	transform: translate(40px, -6px);
+	font-size: .9em;
+	font-weight: bold;
+	height: 30px;
+	letter-spacing: -.04em;
+	text-transform: uppercase;
+	transform: translateY(6px);
 	width: 137px;
 }
 
-.social__wrap-items {
+.social__button:focus {
+	outline: none;
+}
+
+.social__networks {
+	align-items: flex-end;
 	display: flex;
-	justify-content: space-around;
-	left: 24px;
-	position: absolute;
-	right:62px;
+	height: 64px;
+	width: 137px;
 }
 
-.social__item_facebook {
-	background: url(img/icons/facebook.svg) no-repeat;
-}
-.social__item_twitter {
-	background: url(img/icons/twitter.svg) no-repeat;
-}
-.social__item_instagram {
-	background: url(img/icons/instagram.svg) no-repeat;
-}
-.social__item_pinterest {
-	background: url(img/icons/pinterest.svg) no-repeat;
+.social__networks-item {
+	display: inline-block;
+	height: 25px;
+	width: 40px;
 }
 
-.social__item {
-	background-size: contain;
-	background-position: bottom;
-	height: 18px;
-	width: 18px;
+.social__networks-item:nth-child(1) {
+	background: url(./img/icons/facebook.svg) no-repeat;
+}
+
+.social__networks-item:nth-child(2) {
+	background: url(./img/icons/twitter.svg) -1px 3px no-repeat;
+}
+
+.social__networks-item:nth-child(3) {
+	background: url(./img/icons/instagram.svg) 7px 0 no-repeat;
+}
+
+.social__networks-item:nth-child(4) {
+	background: url(./img/icons/pinterest.svg) 17px 1px no-repeat;
 }
 
 .address {
 	font-style: normal;
+	letter-spacing: -.015em;
+	position: relative;
 	text-align: center;
-	letter-spacing: -0.02em;
-	padding-bottom: 32px;
+	top: 108px;
+	transform: translateX(-2px);
 }
 
 .web-hero-school {
 	background: url(img/web-hero-school.png) no-repeat;
-	bottom: 20px;
-	height: 38px;
+	bottom: 17px;
+	height: 40px;
 	position: absolute;
-	right:20px;
-	width: 94px;
+	right: 10px;
+	width: 104px;
 }

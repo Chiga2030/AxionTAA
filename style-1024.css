@@ -236,23 +236,4 @@
 
 	/* block footer */
 
-	.footer {
-		max-width: 1024px;
-	}
-
-	.footer__title,
-	.social__title {
-		left: 40px;
-		top: -9px;
-	}
-
-	.footer__link {
-		letter-spacing: -0.03em;
-	}
-
-	.web-hero-school {
-		bottom: 19px;
-		right:44px;
-	}
-
 }
