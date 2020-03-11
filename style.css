@@ -601,6 +601,7 @@ body {
 	background: #000;
 	border: 2px solid #fff;
 	color: #fff;
+	cursor: pointer;
 	font-size: .9em;
 	font-weight: bold;
 	height: 30px;
