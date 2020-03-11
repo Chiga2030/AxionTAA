@@ -551,19 +551,23 @@ body {
 	position: relative;
 }
 
+.footer__item-column {
+	list-style: none;
+}
+
 .footer__title,
 .social__title {
+	font-weight: bold;
 	font-size: 1em;
 	position: absolute;
 	left: 41px;
 	letter-spacing: -0.05em;
-	top: -18px;
+	top: -9px;
 	text-transform: uppercase;
 }
 
 .footer__list-item {
 	line-height: 1.45em;
-	list-style: none;
 }
 
 .footer__link {
@@ -579,7 +583,6 @@ body {
 }
 
 .social__list-item {
-	list-style: none;
 	transform: translateY(-3px);
 }
 
