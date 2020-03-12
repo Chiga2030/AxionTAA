@@ -231,6 +231,8 @@
 		height: 278px;
 		margin-top: -1px;
 		position: absolute;
+		max-width: 732px;
+		overflow: hidden;
 	}
 
 	.blog-additional__wrap-items {

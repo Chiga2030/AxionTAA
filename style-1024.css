@@ -190,7 +190,20 @@
 	}
 
 	.blog-additional__wrap-items {
-		grid-template-columns: 277px 277px 277px;
+		grid-template-columns: repeat(3, 277px);
+	}
+
+	@media (max-width: 838px) {
+
+		.blog-additional__wrap-items {
+			grid-template-columns: repeat(2, 277px);
+			justify-content: space-around;
+		}
+		
+		.blog-additional__item:nth-child(3) {
+			display: none;
+		}
+
 	}
 
 	.blog-additional__image {
@@ -227,6 +240,7 @@
 
 	.gallery__wrap-items {
 		grid-template-columns: repeat(7, 133px);
+		overflow: auto;
 	}
 
 	.gallery__image {
