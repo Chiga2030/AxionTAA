@@ -72,7 +72,7 @@
 		content: '';
 	  position: absolute;
 		bottom: -35px;
-		border-left: 768px solid transparent;
+		border-left: 100vw solid transparent;
 		border-top: 35px solid #fff;
 		z-index: 1;
 	}
