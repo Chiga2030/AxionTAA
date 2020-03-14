@@ -1851,7 +1851,8 @@ body {
 	/* block - gallery*/
 
 	.gallery__social-tag {
-		max-width: 320px;
+		max-width: 270px;
+		transform: translateX(-21px);
 	}
 
 	/*block - footer*/
