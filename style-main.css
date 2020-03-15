@@ -1,0 +1,63 @@
+html,
+body {
+	font: normal .8em montserrat;
+	margin: 0;
+}
+
+.title {
+	font-size: 2.2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.link {
+	color: #000;
+	font-weight: bold;
+	letter-spacing: -.06em;
+	position: relative;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.link__decorate-arrow::after {
+	background: url(./img/arrow.svg) no-repeat;
+	background-size: cover;
+	content: '';
+	height: 14px;
+	left: calc(100% + 8px);
+	position: absolute;
+	top: 4px;
+  width: 42px;
+}
+
+.link__decorate-arrow_dark::after {
+	background: url(./img/arrow-dark.svg) no-repeat;
+}
+
+.content-box {
+	max-width: 1170px;
+}
+
+@media (max-width: 1024px) {
+	.content-box {
+		max-width: 1024px;
+	}
+}
+
+@media (max-width: 768px) {
+	.content-box {
+		max-width: 768px;
+	}
+}
+
+@media (max-width: 375px) {
+	.content-box {
+		max-width: 375px;
+	}
+}
+
+@media (max-width: 320px) {
+	.content-box {
+		max-width: 320px;
+	}
+}
