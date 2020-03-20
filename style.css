@@ -66,7 +66,7 @@ body {
 }
 
 .logo {
-	background: url(img/logo.png) center / cover no-repeat;
+	background: url(./img/logo.png) center / cover no-repeat;
 	height: 55px;
 	width: 55px;
 }
@@ -97,7 +97,7 @@ body {
 }
 
 .search_input {
-	background: url(img/search.svg)  right / contain no-repeat;
+	background: url(./img/search.svg)  right / contain no-repeat;
 	border: none;
 	outline: none;
 	padding: 0 8px;
@@ -126,7 +126,7 @@ body {
 }
 
 .profile__item_language {
-	background: url(img/language/en.svg) no-repeat;
+	background: url(./img/language/en.svg) no-repeat;
 	transform: translateY(-2px);
 	width: 20px;
 }
@@ -331,7 +331,7 @@ body {
 }
 
 .blog-main__preview-image {
-	background: url(img/video-preview.jpg) no-repeat;
+	background: url(./img/video-preview.jpg) no-repeat;
 	background-size: cover;
 	height: 360px;
 	margin-right: 25px;
@@ -435,15 +435,15 @@ body {
 }
 
 .blog-additional__image_post-68 {
-	background: url(img/blog/post-68/preview.png) no-repeat;
+	background: url(./img/blog/post-68/preview.png) no-repeat;
 }
 
 .blog-additional__image_post-69 {
-	background: url(img/blog/post-69/preview.png) no-repeat;
+	background: url(./img/blog/post-69/preview.png) no-repeat;
 }
 
 .blog-additional__image_post-67 {
-	background: url(img/blog/post-67/preview.png) no-repeat;
+	background: url(./img/blog/post-67/preview.png) no-repeat;
 
 }
 
@@ -515,35 +515,35 @@ body {
 }
 
 .gallery__image_photo1 {
-background: url(img/gallery/social-net/1.jpg);
+background: url(./img/gallery/social-net/1.jpg);
 }
 
 .gallery__image_photo2 {
-background: url(img/gallery/social-net/2.jpg);
+background: url(./img/gallery/social-net/2.jpg);
 }
 
 .gallery__image_photo3 {
-background: url(img/gallery/social-net/3.jpg);
+background: url(./img/gallery/social-net/3.jpg);
 }
 
 .gallery__image_photo4 {
-background: url(img/gallery/social-net/4.jpg);
+background: url(./img/gallery/social-net/4.jpg);
 }
 
 .gallery__image_photo5 {
-background: url(img/gallery/social-net/5.jpg);
+background: url(./img/gallery/social-net/5.jpg);
 }
 
 .gallery__image_photo6 {
-background: url(img/gallery/social-net/6.jpg);
+background: url(./img/gallery/social-net/6.jpg);
 }
 
 .gallery__image_photo7 {
-background: url(img/gallery/social-net/7.jpg);
+background: url(./img/gallery/social-net/7.jpg);
 }
 
 .gallery__image_photo8 {
-	background: url(img/gallery/social-net/1.jpg);
+	background: url(./img/gallery/social-net/1.jpg);
 	display: none;
 }
 
@@ -673,7 +673,7 @@ background: url(img/gallery/social-net/7.jpg);
 }
 
 .web-hero-school {
-	background: url(img/web-hero-school.png) no-repeat;
+	background: url(./img/web-hero-school.png) no-repeat;
 	bottom: 18px;
 	height: 40px;
 	position: absolute;
@@ -690,7 +690,7 @@ background: url(img/gallery/social-net/7.jpg);
 	}
 
 	.logo {
-		background: url(img/logo-1024.png) center / cover no-repeat;
+		background: url(./img/logo-1024.png) center / cover no-repeat;
 		width: 62px;
 	}
 
@@ -1032,7 +1032,7 @@ background: url(img/gallery/social-net/7.jpg);
 	}
 
 	.logo {
-		background: url(img/logo-768.png) center / cover no-repeat;
+		background: url(./img/logo-768.png) center / cover no-repeat;
 		height: 35px;
 		width: 156px;
 	}
@@ -1630,7 +1630,7 @@ background: url(img/gallery/social-net/7.jpg);
 	}
 
 	.logo {
-		background: url(img/logo-375.png) center / cover no-repeat;
+		background: url(./img/logo-375.png) center / cover no-repeat;
 		height: 22px;
 		width: 104px;
 	}
@@ -1906,15 +1906,15 @@ background: url(img/gallery/social-net/7.jpg);
 	}
 
 	.gallery__image_photo3 {
-		background: url(img/gallery/social-net/6.jpg);
+		background: url(./img/gallery/social-net/6.jpg);
 	}
 
 	.gallery__image_photo4 {
-		background: url(img/gallery/social-net/7.jpg);
+		background: url(./img/gallery/social-net/7.jpg);
 	}
 
 	.gallery__image_photo6 {
-		background: url(img/gallery/social-net/3.jpg);
+		background: url(./img/gallery/social-net/3.jpg);
 	}
 
 	.gallery__image {
