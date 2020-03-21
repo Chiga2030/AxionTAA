@@ -845,7 +845,7 @@ background: url(./img/gallery/social-net/7.jpg);
 	.blog-main__preview-image {
 		height: 324px;
 		margin-right: 30px;
-		transform: translateX(0px);
+		transform: translateX(0);
 		width: 578px;
 	}
 
@@ -1251,7 +1251,7 @@ background: url(./img/gallery/social-net/7.jpg);
 	}
 
 	.blog-main__description-text {
-		padding: 0 16px;
+		padding: 0 4px;
 		transform: translateY(-32px);
 	}
 
@@ -1289,7 +1289,7 @@ background: url(./img/gallery/social-net/7.jpg);
 	.blog-additional__title {
 		font-size: 3em;
 		letter-spacing: -.013em;
-		padding-top: 71px;
+		padding-top: 73px;
 		transform: translateY(0);
 	}
 
@@ -1297,10 +1297,6 @@ background: url(./img/gallery/social-net/7.jpg);
 		height: auto;
 		width: 314px;
 	}
-
-	.blog-additional__item:nth-child(2) {
-    padding-top: 24px;
-  }
 
 	.blog-additional__item:nth-child(3) {
 		display: none;
@@ -1352,6 +1348,14 @@ background: url(./img/gallery/social-net/7.jpg);
 	.content-box__blog-additional {
 		margin-bottom: -1px;
 	}
+
+}
+
+@media (max-width: 627px) {
+
+	.blog-additional__item:nth-child(2) {
+    padding-top: 24px;
+  }
 
 }
 
