@@ -911,7 +911,7 @@ background: url(./img/gallery/social-net/7.jpg);
 		top: 0;
     transform: translateY(-100%) skewY(2.6deg);
 		transform-origin: left bottom;
-		width: 100vw;
+		width: 100%;
 	}
 
 	.blog-main__description {
@@ -1126,15 +1126,6 @@ background: url(./img/gallery/social-net/7.jpg);
 		position: relative;
 	}
 
-	.preview::after {
-		border-left: 100vw solid transparent;
-		border-top: 35px solid #fff;
-		bottom: -35px;
-		content: '';
-	  position: absolute;
-		z-index: 1;
-	}
-
 	.preview__title {
 	  font-size: 2.85em;
 	  letter-spacing: .3px;
@@ -1163,7 +1154,7 @@ background: url(./img/gallery/social-net/7.jpg);
 		display: none;
 	}
 
-	.preview__item::after {
+	.preview__item:nth-child(2)::after {
 		content: none;
 	}
 
@@ -1180,7 +1171,7 @@ background: url(./img/gallery/social-net/7.jpg);
 	  left: .7em;
 	  letter-spacing: -.005em;
 		transform: translateY(-18px);
-	  width: 261px;
+	  width: 262px;
 	}
 
 	.preview__price {
@@ -1207,6 +1198,17 @@ background: url(./img/gallery/social-net/7.jpg);
 
 	.preview__item-circle_brown {
 		order: -1;
+	}
+
+}
+
+
+@media (max-width: 559px) {
+	
+	/* block - preview, for 559px */
+
+	.preview__item:nth-child(1)::after {
+		content: none;
 	}
 
 }
@@ -1244,10 +1246,12 @@ background: url(./img/gallery/social-net/7.jpg);
 	}
 
 	.blog-main__description-title {
+		padding: 0 10px;
 		transform: translateY(-24px);
 	}
 
 	.blog-main__description-text {
+		padding: 0 16px;
 		transform: translateY(-32px);
 	}
 
@@ -1293,6 +1297,10 @@ background: url(./img/gallery/social-net/7.jpg);
 		height: auto;
 		width: 314px;
 	}
+
+	.blog-additional__item:nth-child(2) {
+    padding-top: 24px;
+  }
 
 	.blog-additional__item:nth-child(3) {
 		display: none;
@@ -1366,16 +1374,18 @@ background: url(./img/gallery/social-net/7.jpg);
 		bottom: 0;
     transform: translateY(calc(100% - 39px)) skewY(2.6deg);
 		transform-origin: left bottom;
-		width: 100vw;
+		width: 100%;
 		z-index: -1;
 	}
 
 	.gallery__social-tag {
 		color: #fff;
 		font-size: 3em;
+		justify-content: flex-end;
 		letter-spacing: -.01em;
-		max-width: calc(181px * 4);
-		padding: 95px 16px 0 0;
+		margin: auto;
+		max-width: calc(170px * 4);
+		padding-top: 95px;
 	}
 
 	.gallery__wrap-items {
@@ -1403,6 +1413,13 @@ background: url(./img/gallery/social-net/7.jpg);
 
 	.gallery {
 		height: 256px;
+	}
+
+	.gallery__social-tag {
+		font-size: 2.3em;
+		letter-spacing: .045em;
+		max-width: calc(140px * 2);
+		padding-top: 70px;
 	}
 
 	.gallery__wrap-items {
@@ -1701,11 +1718,6 @@ background: url(./img/gallery/social-net/7.jpg);
 		max-width: 375px;
 	}
 
-	.preview::after {
-		border-top: 17px solid #fff;
-		bottom: -17px;
-	}
-
 	.preview__title {
 	  font-size: 2em;
 	  letter-spacing: -.025em;
@@ -1901,7 +1913,7 @@ background: url(./img/gallery/social-net/7.jpg);
 	.gallery__social-tag {
 		font-size: 2.3em;
 		letter-spacing: .045em;
-		max-width: calc(160px * 2);
+		max-width: calc(134px * 2);
 		padding-top: 70px;
 	}
 
@@ -1941,18 +1953,6 @@ background: url(./img/gallery/social-net/7.jpg);
 
 	.banner__link {
 		left: 21px;
-	}
-
-}
-
-@media (max-width: 320px) {
-
-		/* block - preview, for 320px */
-	
-	.preview::after {
-		border-left: 100vw solid transparent;
-		border-top: 16px solid #fff;
-		bottom: -16px;
 	}
 
 }
