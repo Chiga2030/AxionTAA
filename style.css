@@ -570,7 +570,7 @@ background: url(./img/gallery/social-net/7.jpg);
 .footer {
 	background: #000;
 	color: #fff;
-	height: 295px;
+	height: 297px;
 	position: relative;
 }
 
@@ -686,7 +686,7 @@ background: url(./img/gallery/social-net/7.jpg);
 	bottom: 18px;
 	height: 40px;
 	position: absolute;
-	right: 13px;
+	right: 10px;
 	width: 100px;
 }
 
@@ -1021,8 +1021,8 @@ background: url(./img/gallery/social-net/7.jpg);
 	 /*block - footer, for 1024px */
 
 	.web-hero-school {
-		bottom: 16px;
-		right: 37px;
+		bottom: 19px;
+		right: 38px;
 	}
 
 }
