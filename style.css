@@ -524,35 +524,35 @@ body {
 }
 
 .gallery__image_photo1 {
-background: url(./img/gallery/social-net/1.jpg);
+	background: url(./img/gallery/photo-1.jpg);
 }
 
 .gallery__image_photo2 {
-background: url(./img/gallery/social-net/2.jpg);
+	background: url(./img/gallery/photo-2.jpg);
 }
 
 .gallery__image_photo3 {
-background: url(./img/gallery/social-net/3.jpg);
+	background: url(./img/gallery/photo-3.jpg);
 }
 
 .gallery__image_photo4 {
-background: url(./img/gallery/social-net/4.jpg);
+	background: url(./img/gallery/photo-4.jpg);
 }
 
 .gallery__image_photo5 {
-background: url(./img/gallery/social-net/5.jpg);
+	background: url(./img/gallery/photo-5.jpg);
 }
 
 .gallery__image_photo6 {
-background: url(./img/gallery/social-net/6.jpg);
+	background: url(./img/gallery/photo-6.jpg);
 }
 
 .gallery__image_photo7 {
-background: url(./img/gallery/social-net/7.jpg);
+	background: url(./img/gallery/photo-7.jpg);
 }
 
 .gallery__image_photo8 {
-	background: url(./img/gallery/social-net/1.jpg);
+	background: url(./img/gallery/photo-1.jpg);
 	display: none;
 }
 
@@ -757,7 +757,7 @@ background: url(./img/gallery/social-net/7.jpg);
 		margin: auto;
 		max-width: 930px;
 	}
-	
+
 	.banner__title {
 		left: 54px;
 		top: 53px;
@@ -908,11 +908,11 @@ background: url(./img/gallery/social-net/7.jpg);
 	.content-box__blog-main {
 		margin-bottom: 93px;
 	}
-	
+
 }
 
 @media (max-width: 868px) {
-	
+
 	.blog-main {
 		height: 600px;
 		text-align: center;
@@ -950,7 +950,7 @@ background: url(./img/gallery/social-net/7.jpg);
 	.blog-main__link {
 		display: none;
 	}
-	
+
 	.play-button__triangilar::after {
   	transform: translate(-2px, 17px);
 	}
@@ -1038,7 +1038,7 @@ background: url(./img/gallery/social-net/7.jpg);
 }
 
 @media (max-width: 768px) {
-	
+
 	/* block - header, for 768px */
 
 	.header {
@@ -1103,7 +1103,7 @@ background: url(./img/gallery/social-net/7.jpg);
 }
 
 @media (max-width: 768px) {
-	
+
 	/* block - banner, for 768px */
 
 	.banner {
@@ -1112,7 +1112,7 @@ background: url(./img/gallery/social-net/7.jpg);
 		max-width: unset;
 		margin: auto;
 	}
-	
+
 	.banner__title {
 		font-size: 4.6em;
 		left: 45px;
@@ -1142,7 +1142,7 @@ background: url(./img/gallery/social-net/7.jpg);
 }
 
 @media (max-width: 768px) {
-	
+
 	/* block - preview, for 768px */
 
 	.preview {
@@ -1228,7 +1228,7 @@ background: url(./img/gallery/social-net/7.jpg);
 
 
 @media (max-width: 559px) {
-	
+
 	/* block - preview, for 559px */
 
 	.preview__item:nth-child(1)::after {
@@ -1238,7 +1238,7 @@ background: url(./img/gallery/social-net/7.jpg);
 }
 
 @media (max-width: 768px) {
-	
+
 	/* block - blog-main, for 768px */
 
 	.blog-main {
@@ -1286,7 +1286,7 @@ background: url(./img/gallery/social-net/7.jpg);
 }
 
 @media (max-width: 698px) {
-	
+
 	.blog-main__preview-image {
 		background-position: center;
 		background-size: contain;
@@ -1296,7 +1296,7 @@ background: url(./img/gallery/social-net/7.jpg);
 }
 
 @media (max-width: 512px) {
-	
+
 	.blog-main {
 		height: 520px;
 	}
@@ -1308,7 +1308,7 @@ background: url(./img/gallery/social-net/7.jpg);
 }
 
 @media (max-width: 410px) {
-	
+
 	.blog-main {
 		height: 470px;
 	}
@@ -1322,7 +1322,7 @@ background: url(./img/gallery/social-net/7.jpg);
 @media (max-width: 768px) {
 
 	/* block - blog-additional, for 768px */
-	
+
 	.blog-additional {
 		background: #000;
 		color: #fff;
@@ -1408,7 +1408,7 @@ background: url(./img/gallery/social-net/7.jpg);
 }
 
 @media (max-width: 768px) {
-	
+
 	/* block - gallery, for 768px */
 
 	.gallery {
@@ -1494,9 +1494,9 @@ background: url(./img/gallery/social-net/7.jpg);
 }
 
 @media (max-width: 768px) {
-	
+
 	/* block - footer, for 768px */
-	
+
 	.footer__column:nth-child(1) {
 		transform: translateX(51px);
 	}
@@ -1631,7 +1631,7 @@ background: url(./img/gallery/social-net/7.jpg);
 		text-align: center;
 		width: 190px;
 	}
-		
+
 	.footer__column-title,
 	.social__title {
 		letter-spacing: .05em;
@@ -1644,10 +1644,10 @@ background: url(./img/gallery/social-net/7.jpg);
 		transform: translateY(-7px);
 	}
 
-	.social__item { 
+	.social__item {
 		letter-spacing: 0.2em;
     transform: translateY(2px);
-	} 
+	}
 
 	.social__button {
     height: 37px;
@@ -1693,7 +1693,7 @@ background: url(./img/gallery/social-net/7.jpg);
 		max-width: 280px;
 	}
 
-	
+
 	.header__logo {
 		transform: translateY(-1px);
 	}
@@ -1723,7 +1723,7 @@ background: url(./img/gallery/social-net/7.jpg);
 		height: 6px;
 		width: 41px;
 	}
-	
+
 }
 
 @media (max-width: 375px) {
@@ -1828,7 +1828,7 @@ background: url(./img/gallery/social-net/7.jpg);
 	.preview__item-circle_silver {
 		order: 1;
 	}
-	
+
 	.preview__item-circle_goldenrod {
 		order: 1;
 	}
@@ -1889,7 +1889,7 @@ background: url(./img/gallery/social-net/7.jpg);
 @media (max-width: 375px) {
 
 	/* block - blog-additional, for 375px */
-	
+
 	.blog-additional {
 		background: #000;
 		color: #fff;
@@ -1970,15 +1970,15 @@ background: url(./img/gallery/social-net/7.jpg);
 	}
 
 	.gallery__image_photo3 {
-		background: url(./img/gallery/social-net/6.jpg);
+		background: url(./img/gallery/photo-6.jpg);
 	}
 
 	.gallery__image_photo4 {
-		background: url(./img/gallery/social-net/7.jpg);
+		background: url(./img/gallery/photo-7.jpg);
 	}
 
 	.gallery__image_photo6 {
-		background: url(./img/gallery/social-net/3.jpg);
+		background: url(./img/gallery/photo-3.jpg);
 	}
 
 	.gallery__image {
